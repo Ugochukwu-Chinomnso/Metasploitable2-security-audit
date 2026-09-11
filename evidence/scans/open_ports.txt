@@ -1,0 +1,21 @@
+# Nmap 7.99 scan initiated Fri Sep 11 12:04:06 2026 as: /usr/lib/nmap/nmap --privileged -Pn -p- --min-rate 2000 -T4 -oN evidence/scans/open_ports.txt 172.16.103.102
+Nmap scan report for 172.16.103.102
+Host is up (0.0017s latency).
+Not shown: 57234 filtered tcp ports (no-response), 8288 closed tcp ports (reset)
+PORT     STATE SERVICE
+21/tcp   open  ftp
+22/tcp   open  ssh
+23/tcp   open  telnet
+25/tcp   open  smtp
+53/tcp   open  domain
+80/tcp   open  http
+111/tcp  open  rpcbind
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+1524/tcp open  ingreslock
+3306/tcp open  mysql
+5900/tcp open  vnc
+8787/tcp open  msgsrvr
+MAC Address: 00:0C:29:A3:6B:D8 (VMware)
+
+# Nmap done at Fri Sep 11 12:05:05 2026 -- 1 IP address (1 host up) scanned in 59.01 seconds
